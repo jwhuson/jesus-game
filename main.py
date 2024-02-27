@@ -79,7 +79,7 @@ while running:
                         spacebar_message_surface = None
 
     # Update the prayer text surface
-    prayer_text_surface = font.render(prayer_text, True, (255, 0, 0))  # Changed the text color to bright red
+    prayer_text_surface = font.render(prayer_text, True, (128, 0, 128))  # Changed the text color to bright red
 
     # Update the prayer text position to be inside the text input box
     prayer_text_rect.midleft = (text_input_box.x + 5, text_input_box.centery)
